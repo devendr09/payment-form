@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment-Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Pay Now</a>
+            <a href="#">Contact Us</a>
+            <a href="#">About us</a>
+            <a href="#">Sign In / Sign Up</a>
+        </nav>
+    </header>
+    <main>
+
+        <form action="">
+            <h1>Payment Form </h1>
+            <hr>
+            <h2>User Information</h2>
+            
+            <p>
+                Name :  <span>*</span>
+                <input type="text" name="name" required placeholder="Devendra Kumar">
+            </p>
+            <p>
+            <fieldset>
+                <legend>Gender</legend>
+                Male : <input type="radio" name="Gender" id="M"> &nbsp;&nbsp;&nbsp; &nbsp;
+                Female : <input type="radio" name="Gender" id="F">
+            </fieldset>
+            </p>
+            <p>
+                Address:  
+                <textarea name="Address" id="Address" cols="100" rows="6"></textarea>
+            </p>
+            <p>
+                E-mail : <span>*</span> 
+                <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+            </p>
+            <p>
+                Pincode:  <input type="number" name="Pincode" id="Pincode" placeholder="123456">
+            </p>
+            
+            <hr>
+
+            <h2>Payment Information</h2>
+            <p>
+                <img  src="credit-card.png" alt="" width="50px"> &nbsp; &nbsp;&nbsp;
+                <img  src="maestro.png" alt="" width="50px">&nbsp;&nbsp;&nbsp;
+                <img  src="visa.png" alt="" width="50px">
+            </p>
+            <p>
+                Card-Type : <span>*</span> 
+                <select name="cardType" id="cardType" required>
+                    <option value=""> --Select a Card-Type--</option>
+                    <option value="mastercard">MasterCard</option>
+                    <option value="visa"> VISA </option>
+                    <option value="rupay">Rupay</option>
+                </select>
+            </p>
+            <p>
+                Card Number : <span>*</span>
+                <input type="number" name="cardNumber" id="cardNumber" required placeholder="0000-0000-0000-0000">
+            </p>
+            <p>
+                Expiration Date : <span>*</span> <input type="date" name="exp-date" id="exp-date" required>
+            </p>
+            <p>
+                CVV : <span>*</span>  <input type="password" name="cvv" id="cvv" required placeholder="000">
+            </p>
+            <br>
+            <p>
+                <input type="submit" value="Pay Now">
+            </p>
+            <p class="caution">
+                <span>*</span> Fields are necessary
+            </p>
+        </form>
+
+    </main>
+
+    <footer>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">&copy;</a>
+        <p>
+            Owner- 2021: Devendra Kumar
+        </p>
+    </footer>
+</body>
+
+</html>

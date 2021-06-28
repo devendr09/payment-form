@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header nav{
+    color: white;
+    background-color: rgba(5, 5, 5, 0.89);
+    padding: 10px;
+}
+footer{
+    color: rgba(255, 255, 255, 0.678);
+    background-color: rgba(5, 5, 5, 0.89);
+    padding: 10px;
+    padding-top: 20px ;
+    text-align: center;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px ;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 20px ;
+}
+header nav a:hover{
+    color: tomato;
+}
+footer a:hover{
+    color: tomato;
+}
+main{
+    margin: 20px;
+}
+form{
+    padding: 20px;
+    background-color: rgba(235, 235, 235, 0.788);
+}
+h1{
+    text-align: center;
+}
+input[type="text"],
+input[type="number"], 
+input[type="email"], 
+input[type="date"], 
+input[type="password"], 
+textarea, 
+select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(187, 187, 192, 0.877);
+    margin: 10px ;
+}
+fieldset{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(187, 187, 192, 0.877);
+}
+input[type="submit"]{
+    width: 100%;
+    background-color: rgba(138, 241, 231, 0.877);
+    border: 1px solid rgb(84, 233, 218);
+    padding: 10px;
+}
+input[type="submit"]:hover{
+    background-color: rgba(59, 194, 181, 0.986);
+    color: white;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+.caution{
+    font-size: 12px;
+    text-align: right;
+}
+
+p img:hover{
+    padding: 4px;
+}
